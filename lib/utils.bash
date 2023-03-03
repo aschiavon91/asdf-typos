@@ -43,7 +43,7 @@ download_release() {
   file_name="$3"
 
   if [ -e "${release_file}" ]; then
-      rm -fr "${release_file}"
+    rm -fr "${release_file}"
   fi
 
   # TODO: Adapt the release URL convention for typos
