@@ -12,7 +12,7 @@ fail() {
   exit 1
 }
 
-curl_opts=(-fsSL)
+curl_opts=(-fsL)
 
 # NOTE: You might want to remove this if typos is not hosted on GitHub releases.
 if [ -n "${GITHUB_API_TOKEN:-}" ]; then
@@ -37,15 +37,20 @@ list_all_versions() {
 }
 
 download_release() {
-  local version filename url
+  local version release_file file_name url
   version="$1"
-  filename="$2"
+  release_file="$2"
+  file_name="$3"
+
+  if [ -e "${release_file}" ]; then
+      rm -fr "${release_file}"
+  fi
 
   # TODO: Adapt the release URL convention for typos
-  url="$GH_REPO/archive/v${version}.tar.gz"
+  url="$GH_REPO/releases/download/v${version}/${file_name}"
 
   echo "* Downloading $TOOL_NAME release $version..."
-  curl "${curl_opts[@]}" -o "$filename" -C - "$url" || fail "Could not download $url"
+  curl "${curl_opts[@]}" -o "$release_file" -C - "$url" || fail "Could not download $url"
 }
 
 install_version() {
