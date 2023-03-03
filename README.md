@@ -44,7 +44,7 @@ asdf install typos latest
 asdf global typos latest
 
 # Now typos commands are available
-foo --version
+typos --version
 ```
 
 Check [asdf](https://github.com/asdf-vm/asdf) readme for more instructions on how to

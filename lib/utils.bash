@@ -3,9 +3,9 @@
 set -euo pipefail
 
 # TODO: Ensure this is the correct GitHub homepage where releases can be downloaded for typos.
-GH_REPO="https://github.com/aschiavon91/asdf-typos"
+GH_REPO="https://github.com/crate-ci/typos"
 TOOL_NAME="typos"
-TOOL_TEST="foo --version"
+TOOL_TEST="typos --version"
 
 fail() {
   echo -e "asdf-$TOOL_NAME: $*"
