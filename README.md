@@ -16,18 +16,13 @@
 
 # Dependencies
 
-**TODO: adapt this section**
-
-- `bash`, `curl`, `tar`: generic POSIX utilities.
-- `SOME_ENV_VAR`: set this environment variable in your shell config to load the correct version of tool x.
+- `bash`, `curl`, `tar`: binaries are needed.
 
 # Install
 
 Plugin:
 
 ```shell
-asdf plugin add typos
-# or
 asdf plugin add typos https://github.com/aschiavon91/asdf-typos.git
 ```
 
