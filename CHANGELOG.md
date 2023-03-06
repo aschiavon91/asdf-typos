@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.1.0](https://www.github.com/aschiavon91/asdf-typos/compare/v1.0.0...v1.1.0) (2023-03-06)
+
+
+### Features
+
+* resolve all todos ([fec1d4c](https://www.github.com/aschiavon91/asdf-typos/commit/fec1d4cd2caee2bdfd30954cb29e9002dd131a0d))
+
 ## 1.0.0 (2023-03-03)
 
 
