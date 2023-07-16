@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.2.0](https://github.com/aschiavon91/asdf-typos/compare/v1.1.0...v1.2.0) (2023-07-16)
+
+
+### Features
+
+* filter supported versions ([ec2e067](https://github.com/aschiavon91/asdf-typos/commit/ec2e067934a61bd02800a75db6d629614db8caf4))
+
 ## [1.1.0](https://www.github.com/aschiavon91/asdf-typos/compare/v1.0.0...v1.1.0) (2023-03-06)
 
 
