@@ -3,7 +3,7 @@
 # asdf-typos [![Build](https://github.com/aschiavon91/asdf-typos/actions/workflows/build.yml/badge.svg)](https://github.com/aschiavon91/asdf-typos/actions/workflows/build.yml) [![Lint](https://github.com/aschiavon91/asdf-typos/actions/workflows/lint.yml/badge.svg)](https://github.com/aschiavon91/asdf-typos/actions/workflows/lint.yml)
 
 
-[typos](https://github.com/aschiavon91/asdf-typos) plugin for the [asdf version manager](https://asdf-vm.com).
+[typos](https://github.com/crate-ci/typos) plugin for the [asdf version manager](https://asdf-vm.com).
 
 </div>
 
