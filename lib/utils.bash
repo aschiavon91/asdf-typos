@@ -30,7 +30,7 @@ list_github_tags() {
 }
 
 list_all_versions() {
-  list_github_tags
+  list_github_tags | grep -E '^([1-9][0-9]*)\.[0-9]*\.' | grep -vE '^1\.0'
 }
 
 download_release() {
