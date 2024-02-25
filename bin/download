@@ -18,6 +18,7 @@ esac
 
 case "$(uname -m)" in
 x86_64*) ARCHITECTURE="x86_64" ;;
+aarch64 | arm64) ARCHITECTURE="aarch64" ;;
 *) fail "Unsupported architecture" ;;
 esac
 

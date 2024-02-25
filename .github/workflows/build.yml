@@ -13,11 +13,16 @@ jobs:
       matrix:
         os:
           - ubuntu-latest
-          - macos-latest
+          - macos-14 # M1
+          - macos-13 # Intel
         tool-version:
           - 'latest'
           # Supporting oldest
           - '1.1.0'
+        exclude:
+          # typos supported aarch64 darwin since 1.17.1
+          - os: macos-14
+            tool-version: '1.1.0'
     runs-on: ${{ matrix.os }}
     steps:
       - name: asdf_plugin_test
