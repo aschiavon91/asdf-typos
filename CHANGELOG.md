@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.3.0](https://github.com/aschiavon91/asdf-typos/compare/v1.2.0...v1.3.0) (2024-02-26)
+
+
+### Features
+
+* support aarch64 on darwin ([7aa34a0](https://github.com/aschiavon91/asdf-typos/commit/7aa34a0a6aa11965e9a925565ee995cdfeac1e79))
+
 ## [1.2.0](https://github.com/aschiavon91/asdf-typos/compare/v1.1.0...v1.2.0) (2023-07-16)
 
 ### Features
